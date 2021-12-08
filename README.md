@@ -1,1 +1,1 @@
-# odin-landing-page
+This project will reinforce the CSS concepts and skills learned thus far, inlcuding flexbox. As the name states it is a landing page and will illustrate how flexbox can be utilzed to layout an entire web page.
