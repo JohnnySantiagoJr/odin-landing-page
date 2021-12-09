@@ -69,3 +69,36 @@ button {
   font-weight: 600;
   padding: 8px 26px;
 }
+
+.information-section {
+  padding-top: 20px;
+  padding-bottom: 90px;
+}
+
+h2 {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: extra-bold;
+  text-align: center;
+}
+
+.images-container {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.figure-container {
+  width: 160px;
+}
+
+.figure-container img {
+  border: 4px #3882F6 solid;
+  border-radius: 16px;
+}
+
+.figure-container p {
+  color: #606268;
+  text-align: center;
+}
