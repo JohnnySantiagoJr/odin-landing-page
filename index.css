@@ -2,6 +2,10 @@
   font-family: Roboto, sans-serif;
 }
 
+body {
+  margin: 0;
+}
+
 header,
 footer,
 .hero-section {
@@ -11,7 +15,9 @@ footer,
 header,
 footer {
   align-items: center;
+  color: #E5E7EB;
   display: flex;
+  font-size: 18px;
   justify-content: space-between;
 }
 
@@ -19,6 +25,13 @@ header,
 footer,
 section {
   padding: 0 198px;
+}
+
+h2 {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: extra-bold;
+  text-align: center;
 }
 
 h3 {
@@ -30,13 +43,6 @@ ul {
   list-style: none;
   display: flex;
   gap: 25px;
-}
-
-.hero-section {
-  display: flex;
-  gap: 40px;
-  padding-top: 100px;
-  padding-bottom: 120px;  
 }
 
 a,
@@ -70,16 +76,24 @@ button {
   padding: 8px 30px;
 }
 
+.hero-section {
+  display: flex;
+  gap: 56px;
+  padding-top: 100px;
+  padding-bottom: 120px;  
+}
+
+.hero-section p {
+  margin-top: 6px;
+}
+
 .information-section {
   padding-top: 20px;
   padding-bottom: 90px;
 }
 
-h2 {
-  color: #1F2937;
-  font-size: 36px;
-  font-weight: extra-bold;
-  text-align: center;
+.information-section p {
+  margin-top: 4px;
 }
 
 .images-container {
@@ -152,5 +166,9 @@ h2 {
   border: 2px solid;
   height: 36px;
   padding: 4px 26px;
+}
 
+footer {
+  height: 100px;
+  justify-content: center;
 }
